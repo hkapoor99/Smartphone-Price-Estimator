@@ -49,4 +49,4 @@ Link - https://www.kaggle.com/msainani/gsmarena-mobile-devices
 ## Modeling
 1. XGBoost Regressor is used to calculate the price with minimal hypertuning.
 2. Train-test is split in 3:1 ratio.
-3. Model is evaluated with mean squared error which comes approx 6000. A dummy model was created which only predicts $200 for all phones to compare the accuracy of our current model. The dummy model gave a mean squared error of 22000.
+3. Model is evaluated with mean squared error which comes approx 6500. A dummy model was created which only predicts $200 for all phones to compare the accuracy of our current model. The dummy model gave a mean squared error of 21000.
